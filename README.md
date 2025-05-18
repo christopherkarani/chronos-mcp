@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/chronos-mcp.svg)](https://www.npmjs.com/package/chronos-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![smithery badge](https://smithery.ai/badge/@christopherkarani/chronos-mcp)](https://smithery.ai/server/@christopherkarani/chronos-mcp)
 
 Chronos is a Model Context Protocol (MCP) server tailored for the Stellar blockchain and designed specifically for integration with Claude Desktop and similar AI applications. Chronos empowers your AI assistant with on-chain tools enabling streamlined interactions with the Stellar network.
 
@@ -31,6 +32,14 @@ Chronos is built to be extensible and operates as a standard Node.js package, al
 - Internet connectivity to interact with the Stellar network
 
 ## Installation
+
+### Installing via Smithery
+
+To install chronos-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@christopherkarani/chronos-mcp):
+
+```bash
+npx -y @smithery/cli install @christopherkarani/chronos-mcp --client claude
+```
 
 ### Option 1: Install from npm (Recommended)
 
